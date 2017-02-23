@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: node-jerry
+  host: node-jerry
+  disk_quota: 1024M
+  services:
+  - node-jerry-cloudantNoSQLDB
+  - Language Translator-tn
+  - Conversation-l6
